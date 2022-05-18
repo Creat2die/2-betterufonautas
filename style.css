@@ -1,0 +1,33 @@
+.fullpage{
+    padding: 20px;
+}
+
+.left{
+    width: 30%;
+    display: inline-block;
+    min-width: 600px;
+    padding: 40px;
+}
+
+.right{
+    width: 40%;
+    display: inline-block;
+    min-width: 600px;
+    padding: 40px;
+}
+
+h1{
+    color: #279CEF;
+    font-family: roboto;
+    font-size: 12rem;
+    margin-bottom: 0px;
+}
+h2{
+    font-family: roboto;
+    font-size: 150%;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+}
