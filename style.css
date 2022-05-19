@@ -1,12 +1,13 @@
 .fullpage{
-    padding: 20px;
+    padding: 40px;
 }
 
 .left{
-    width: 30%;
+    width: 10%;
     display: inline-block;
-    min-width: 600px;
-    padding: 40px;
+    min-width: 500px;
+    padding:40px;
+    padding-left: 100px;
 }
 
 .right{
@@ -14,20 +15,41 @@
     display: inline-block;
     min-width: 600px;
     padding: 40px;
+    padding-top: 10px;
 }
 
 h1{
     color: #279CEF;
     font-family: roboto;
-    font-size: 12rem;
+    font-size: 10rem;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 h2{
     font-family: roboto;
-    font-size: 150%;
+    font-size: 40px;
+    margin-top: 0px;
 }
 
 .image{
-    width: 100%;
-    height: auto;
+    width: 80%;
+    padding-top: 60px;
+}
+
+.button{
+    font-family: roboto;
+    font-weight: 500;
+    border-radius: 50px;
+    border-color:#279CEF;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px 25px 10px 25px;
+    font-size: 20px;
+    background-color: white;
+    color: #279CEF;
+}
+
+.button:hover{
+    background-color: #279CEF;
+    color:white;
 }
