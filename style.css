@@ -1,9 +1,7 @@
-@media(min-width: 900px){
+
 .fullpage{
-    display:inline-flex;
-    margin-left: 10%;
-    margin-top: 100px;
-    margin-right: 10%;
+
+    margin: 100px 10% 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,17 +18,8 @@
     display: inline-block;
     min-width: 200px;
 }
-}
 
-@media(max-width: 900px){
-    .fullpage{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-}
+
     
 h1{
     color: #279CEF;
@@ -51,7 +40,7 @@ h2{
 }
 
 .button{
-    font-family: roboto;
+    font-family: roboto, sans-serif;
     font-weight: 500;
     border: solid 3px #279CEF;
     border-radius: 50px;
@@ -64,4 +53,17 @@ h2{
 .button:hover{
     background-color: #279CEF;
     color:white;
+}
+@media(max-width: 900px){
+    .fullpage{
+
+    flex-direction: column-reverse;
+ 
+    width: 100%;
+    margin:0
+}
+.right{
+    width: auto;
+   
+}
 }
