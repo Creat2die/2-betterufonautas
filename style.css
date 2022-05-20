@@ -1,23 +1,37 @@
+@media(min-width: 900px){
 .fullpage{
-    padding: 40px;
+    display:inline-flex;
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .left{
     width: 30%;
     display: inline-block;
-    min-width: 200px;
-    padding:40px;
-    padding-left: 100px;
+    min-width: 350px;
 }
 
 .right{
-    width: 40%;
+    width: 50%;
     display: inline-block;
     min-width: 200px;
-    padding: 40px;
-    padding-top: 10px;
+}
 }
 
+@media(max-width: 900px){
+    .fullpage{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+}
+    
 h1{
     color: #279CEF;
     font-family: roboto;
@@ -34,16 +48,13 @@ h2{
 .image{
     width: 80%;
     min-width: 400px;
-    padding-top: 60px;
 }
 
 .button{
     font-family: roboto;
     font-weight: 500;
+    border: solid 3px #279CEF;
     border-radius: 50px;
-    border-color:#279CEF;
-    border-width: 3px;
-    border-style: solid;
     padding: 10px 25px 10px 25px;
     font-size: 20px;
     background-color: white;
